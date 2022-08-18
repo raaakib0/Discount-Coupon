@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .layout{
+            display: grid;
+            justify-items: center;
+        }
+        .discount{
+            background-color: aquamarine;
+            padding: 20px;
+            margin: 20px;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="layout" >
+    <div class="discount">
+        <h1>Products</h1>
+        <h2>Tk- <span id="amount">400</span> <span id="discount"></span></h2>
+        <h2><span id="discountAmount"></span></h2>
+        <input id="inputValue" type="text">
+        <button id="cuponButton">Apply coupon</button>
+        <p>Discount Coupon is : <Strong>DOM</Strong></p>
+       </div>
+    
+</section>
+    <script src="script.js"></script>
+</body>
+
+</html>
